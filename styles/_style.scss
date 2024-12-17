@@ -1,24 +1,27 @@
-.pinkdiv{
-    display: flex;
-    width: 1360px;
-    height: 56px;
-    padding: 16px 0px;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-    border-radius: 20px;
-    background: #F1C5D7;
-    h3{
-        color: #825065;
-        font-family: "Abhaya Libre";
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
+.container {
+    @include mycontainer;
+    .pinkdiv {
+        display: flex;
+        width: 100%;
+        height: 56px;
+        padding: 16px 0px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: #f1c5d7;
+        h3 {
+            color: #825065;
+            font-family: "Abhaya Libre";
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
     }
 }
-.s1{
-    .banner{
+header {
+    .banner {
         background-image: url(../images/img1.png);
         background-color: white;
     }
