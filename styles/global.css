@@ -49,8 +49,7 @@ table {
 }
 
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 a {
@@ -63,20 +62,13 @@ a {
   margin: 0 auto;
 }
 .container .pinkdiv {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
   height: 56px;
   padding: 16px 0px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
   border-radius: 20px;
   background: #f1c5d7;
 }
@@ -92,4 +84,32 @@ a {
 header .banner {
   background-image: url(../images/img1.png);
   background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+header nav ul a {
+  width: 66px;
+  flex-shrink: 0;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Abhaya Libre";
+  font-size: 24px;
+  font-weight: 700;
+  color: black;
+}
+header p {
+  color: #363030;
+  -webkit-text-stroke-width: 1;
+  -webkit-text-stroke-color: #000;
+  font-family: "Abhaya Libre";
+  font-size: 88px;
+  font-weight: 700;
+  width: 540px;
 }/*# sourceMappingURL=global.css.map */
