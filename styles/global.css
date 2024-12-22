@@ -107,13 +107,14 @@ header nav ul a {
   font-weight: 700;
   color: black;
 }
-header .Blumarine {
+
+.blumarine {
   width: 540px;
   padding-left: 104px;
   padding-top: 100px;
-  padding-bottom: 150px;
+  padding-bottom: 0px;
 }
-header .Blumarine p {
+.blumarine p {
   color: #363030;
   -webkit-text-stroke-width: 1;
   -webkit-text-stroke-color: #000;
@@ -122,4 +123,24 @@ header .Blumarine p {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+
+.b1 {
+  width: 1360px;
+  display: flex;
+  align-items: center;
+}
+
+button {
+  color: rgba(0, 0, 0, 0.64);
+  border: 1px solid rgba(0, 0, 0, 0.42);
+  background-color: rgba(255, 160, 199, 0.5);
+  border-radius: 16px;
+  padding: 10px 20px;
+  font-family: "Abhaya Libre";
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
 }/*# sourceMappingURL=global.css.map */
