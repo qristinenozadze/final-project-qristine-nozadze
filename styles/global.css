@@ -149,6 +149,7 @@ button {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding-bottom: 70px;
 }
 
 .product-card {
@@ -159,6 +160,7 @@ button {
   background-color: white;
   overflow: hidden;
   padding-top: 0px;
+  flex-shrink: 0;
 }
 
 .product-details {
@@ -179,7 +181,6 @@ button {
 }
 
 .product-name {
-  display: flex;
   width: 188px;
   height: 40px;
   flex-direction: column;
@@ -203,4 +204,32 @@ button {
   font-weight: 400;
   line-height: normal;
   margin-top: 10px;
+}
+
+.aboutus1 {
+  display: flex;
+  justify-content: space-between;
+  width: 1360px;
+  height: 698px;
+  border-radius: 40px;
+  background: rgba(241, 197, 215, 0.32);
+}
+.aboutus1 .text0 {
+  padding-top: 182px;
+  padding-right: 162px;
+  padding-bottom: 182px;
+  padding-left: 162px;
+}
+.aboutus1 .text0 h3 {
+  color: rgba(54, 48, 48, 0.73);
+  font-family: "Abhaya Libre";
+  font-size: 48px;
+  font-weight: 700;
+  padding-bottom: 25px;
+}
+.aboutus1 .text0 p {
+  color: #868080;
+  font-family: "Agency FB";
+  font-size: 24px;
+  font-weight: 400;
 }/*# sourceMappingURL=global.css.map */
