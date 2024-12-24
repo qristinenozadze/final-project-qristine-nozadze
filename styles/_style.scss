@@ -205,3 +205,50 @@ header{
     padding-top: 30px;
     padding-bottom: 30px;
 }
+.follow{
+    margin-top: 80px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background: rgba(186, 115, 31, 0.09);
+    padding-top: 29px;
+    padding-left: 40px;
+    padding-bottom: 52px;
+    margin-bottom: 56px;
+    .findus{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: space-between;
+        h4{
+            color: #5B5959;
+            font-family: Amaranth;
+            font-size: 64px;
+            font-weight: 400;
+        }
+        button{
+            color: rgba(0, 0, 0, 0.64);
+            border: 1px solid rgba(0, 0, 0, 0.42);
+            background-color: rgba(255, 160, 199, 0.50);
+            border-radius: 16px;
+            padding: 10px 20px; 
+            font-family: "Abhaya Libre";
+            font-size: 24px;
+            text-align: center; 
+            cursor: pointer; 
+            display: block; 
+            margin-top: 40px;
+            margin-right: 60px;
+        }  
+    }
+    .influs{
+        display: flex;
+        margin-top: 30px;
+        padding-bottom: 85px;
+        a{
+            color: #7B7878;
+            font-family: Amaranth;
+            font-size: 32px;
+            font-weight: 400;
+        }
+    }
+}
