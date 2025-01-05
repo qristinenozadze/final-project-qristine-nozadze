@@ -420,6 +420,46 @@ header {
     }
   }
 }
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  .executive-team {
+    text-align: center;
+    max-width: 671px;
+    h2 {
+      margin-bottom: 20px;
+      color: rgba(54, 48, 48, 0.88);
+      font-family: "Abhaya Libre";
+      font-size: 56px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+    .team-members {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+
+      .member {
+        text-align: center;
+        flex-shrink: 0;
+        h5 {
+          margin-top: 10px;
+          color: #000;
+          font-family: Inter;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 32px;
+        }
+      }
+    }
+  }
+}
+
 .banner2 {
   background-image: url(../images/banner2.png);
   background-color: white;

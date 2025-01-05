@@ -484,6 +484,45 @@ header nav ul a {
   padding-bottom: 5%;
 }
 
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.center-container .executive-team {
+  text-align: center;
+  max-width: 671px;
+}
+.center-container .executive-team h2 {
+  margin-bottom: 20px;
+  color: rgba(54, 48, 48, 0.88);
+  font-family: "Abhaya Libre";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.center-container .executive-team .team-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.center-container .executive-team .team-members .member {
+  text-align: center;
+  flex-shrink: 0;
+}
+.center-container .executive-team .team-members .member h5 {
+  margin-top: 10px;
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+
 .banner2 {
   background-image: url(../images/banner2.png);
   background-color: white;
