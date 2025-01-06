@@ -422,12 +422,21 @@ header .fa-bars {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-top: 30px;
   padding-bottom: 85px;
 }
-.follow .influs a {
+.follow .influs div {
+  width: 400px;
+}
+.follow .influs div img {
+  width: 100%;
+}
+.follow .influs div a {
   color: #7b7878;
   font-family: Amaranth;
   font-size: 32px;
